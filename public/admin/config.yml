@@ -77,8 +77,6 @@ collections:
           - { label: Inside eyebrow, name: insideEyebrow, widget: string }
           - { label: Inside heading, name: insideHeading, widget: string }
           - { label: Pillars, name: pillars, widget: list, field: { label: Pillar, name: pillar, widget: string } }
-          - { label: Supporters eyebrow, name: supportersEyebrow, widget: string }
-          - { label: Supporters heading, name: supportersHeading, widget: string }
           - { label: Contact eyebrow, name: contactEyebrow, widget: string }
           - { label: Contact heading, name: contactHeading, widget: string }
           - { label: Call card title, name: callCardTitle, widget: string }

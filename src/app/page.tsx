@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { FacilityFeeLink } from "@/components/facility-fee-link";
 import {
-  aqua,
   ctaContent,
-  donation,
   email,
   homeContent,
   membershipContent,
@@ -12,7 +10,6 @@ import {
   phones,
   photos,
   rockSteady,
-  sponsors,
 } from "@/lib/content";
 
 const tel = phones.callTel;
@@ -184,35 +181,11 @@ export default function HomePage() {
             ))}
           </ul>
           <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-[#3d4d63]">{rockSteady.body}</p>
-          <p className="mx-auto mt-3 max-w-3xl text-center text-lg leading-relaxed text-[#3d4d63]">{aqua.body}</p>
         </div>
       </section>
 
       <section className="bg-navy px-4 py-10 text-center text-white md:py-14">
         <h2 className="mx-auto max-w-3xl text-2xl font-bold leading-snug md:text-3xl">{rockSteady.anniversary}</h2>
-      </section>
-
-      <section className="bg-white px-4 py-16 text-[#122033] md:py-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-bold tracking-[0.08em] text-brass uppercase">{homeContent.supportersEyebrow}</p>
-          <h2 className="font-display mt-3 text-4xl text-navy uppercase md:text-5xl">{homeContent.supportersHeading}</h2>
-          <p className="mt-4 text-lg leading-relaxed text-[#3d4d63]">{donation.lead}</p>
-        </div>
-        <div className="mx-auto mt-10 grid max-w-5xl gap-5 sm:grid-cols-2">
-          {sponsors.map((sponsor) => (
-            <article key={sponsor.name} className="rounded-2xl border border-[#e6ebf2] p-5 text-center">
-              <div className="flex h-24 items-center justify-center bg-[#f7f8fa]">
-                <img src={sponsor.image} alt={sponsor.alt} className="max-h-16 max-w-full object-contain" />
-              </div>
-              <h3 className="mt-4 text-xl font-bold text-navy">{sponsor.name}</h3>
-              <p className="mt-2 text-lg text-[#3d4d63]">{sponsor.text}</p>
-            </article>
-          ))}
-        </div>
-        <p className="mx-auto mt-8 max-w-3xl text-center text-lg">{donation.gift}</p>
-        <p className="mt-6 text-center">
-          <Link href="/donate/" className="inline-flex h-12 items-center rounded-full bg-navy px-6 font-bold text-white">Donate Now</Link>
-        </p>
       </section>
 
       <section className="bg-[#f7f8fa] px-4 py-16 md:py-20">
