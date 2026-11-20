@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Reveal } from "@/components/reveal";
 import {
   aboutContent,
   photos,
@@ -15,42 +14,26 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <section className="bg-navy text-white lg:grid lg:grid-cols-2">
-        <img
-          src={photos.members.src}
-          alt={photos.members.alt}
-          className="h-56 w-full object-cover sm:h-72 lg:h-full lg:min-h-[28rem]"
-        />
-        <div className="px-4 py-6 md:px-8 lg:py-16">
-          <h1 className="font-display text-4xl leading-tight md:text-6xl">{aboutContent.heading}</h1>
-          <p className="mt-4 text-xl leading-relaxed">{aboutContent.mission}</p>
+      <section className="bg-navy text-white">
+        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-6 md:flex-row md:items-center md:px-6 md:py-8">
+          <img
+            src={photos.members.src}
+            alt={photos.members.alt}
+            className="h-36 w-full object-cover sm:h-44 md:h-40 md:w-72 md:shrink-0"
+          />
+          <div>
+            <h1 className="font-display text-4xl leading-[0.95] md:text-5xl">{aboutContent.heading}</h1>
+            <p className="mt-3 max-w-2xl text-lg leading-snug md:text-xl">{aboutContent.mission}</p>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl space-y-5 px-4 py-8 text-lg leading-relaxed md:px-6 md:py-14 md:text-xl">
-        {aboutContent.paragraphs.map((paragraph) => (
-          <p key={paragraph.slice(0, 24)}>{paragraph}</p>
-        ))}
-      </section>
-
-      <section className="bg-[#f7f8fa]">
-        <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-16">
-          <h2 className="font-display text-center text-3xl text-navy uppercase md:text-5xl">{aboutContent.offerHeading}</h2>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {aboutContent.offers.map((offer) => (
-              <Reveal key={offer.title}>
-                <article className="h-full border border-[#c9d3e0] bg-white p-6">
-                  <span className="inline-flex size-11 items-center justify-center rounded-full bg-sky/15 text-brass">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path d="M5 12h14M12 5v14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                    </svg>
-                  </span>
-                  <h3 className="font-display mt-4 text-xl text-navy uppercase">{offer.title}</h3>
-                  <p className="mt-2 text-lg leading-relaxed text-[#3d4d63]">{offer.body}</p>
-                </article>
-              </Reveal>
-            ))}
-          </div>
+      <section className="mx-auto max-w-3xl px-4 py-8 md:px-6 md:py-10">
+        <h2 className="font-display text-3xl text-navy md:text-4xl">{aboutContent.missionHeading}</h2>
+        <div className="mt-4 space-y-5 text-lg leading-relaxed md:text-xl">
+          {aboutContent.paragraphs.map((paragraph) => (
+            <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+          ))}
         </div>
       </section>
 

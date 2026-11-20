@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${atkinson.variable} ${atkinsonBold.variable} ${barlow.variable}`}>
-      <body className="pb-28 lg:pb-0">
+      <body className="pb-28 xl:pb-0">
         <a className="skip-link" href="#main">
           Skip to Content
         </a>

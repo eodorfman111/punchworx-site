@@ -1,4 +1,5 @@
 import { membershipContent } from "@/lib/content";
+import { FacilityFeeLink } from "@/components/facility-fee-link";
 import { Card, CardContent } from "@/components/ui/card";
 
 const items = membershipContent.cards;
@@ -25,7 +26,13 @@ export function PricingCards() {
                 <span className="ml-2 align-middle text-2xl">{item.unit}</span>
               ) : null}
             </p>
-            <p className="text-lg leading-relaxed font-bold">{item.text}</p>
+            <p className="text-lg leading-relaxed font-bold">
+              {item.kicker === "Facility" ? (
+                <FacilityFeeLink className="underline underline-offset-4" />
+              ) : (
+                item.text
+              )}
+            </p>
           </CardContent>
         </Card>
       ))}

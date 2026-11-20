@@ -11,7 +11,8 @@ const explore = [
   { href: "/team/", label: "Coaches" },
   { href: "/about/", label: "About" },
   { href: "/questions/", label: "Questions" },
-  { href: "/get-involved/", label: "Donate" },
+  { href: "/get-involved/", label: "Get Involved" },
+  { href: "/donate/", label: "Donate" },
   { href: "/contact/", label: "Contact" },
 ] as const;
 

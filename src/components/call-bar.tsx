@@ -18,7 +18,7 @@ function PhoneIcon() {
 
 export function CallBar() {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#04101f] px-3 py-2.5 pb-[max(0.65rem,env(safe-area-inset-bottom))] lg:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#04101f] px-3 py-2.5 pb-[max(0.65rem,env(safe-area-inset-bottom))] xl:hidden">
       <div className="mx-auto flex max-w-lg gap-3">
         <a
           href={phones.callTel}

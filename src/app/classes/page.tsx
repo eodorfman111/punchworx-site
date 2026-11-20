@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PricingCards } from "@/components/pricing";
 import { ScheduleTables } from "@/components/schedule";
-import { phones, photos, prices, servicesContent } from "@/lib/content";
+import { phones, photos, servicesContent } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -39,7 +39,6 @@ export default function ClassesPage() {
         <div className="mt-8">
           <PricingCards />
         </div>
-        <p className="sr-only">{prices.facility}</p>
       </section>
 
       <section className="bg-panel">

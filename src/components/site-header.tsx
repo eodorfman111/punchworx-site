@@ -54,7 +54,7 @@ export function SiteHeader() {
               href={item.href}
               aria-current={isCurrent(pathname, item.href) ? "page" : undefined}
               className={cn(
-                "px-1 py-2 text-sm font-bold whitespace-nowrap text-white xl:px-2.5 xl:text-base",
+                "px-1.5 py-2 text-[13px] font-bold whitespace-nowrap text-white xl:px-2 xl:text-sm",
                 isCurrent(pathname, item.href) && "underline decoration-sky decoration-4 underline-offset-8",
               )}
             >
@@ -62,7 +62,7 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <a href={phones.callTel} className="gym-btn gym-btn-sky ml-2 hidden lg:inline-flex">
+        <a href={phones.callTel} className="gym-btn gym-btn-sky ml-2 hidden xl:inline-flex">
           Call {phones.callUs}
         </a>
         <Sheet>

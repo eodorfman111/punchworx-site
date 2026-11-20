@@ -173,6 +173,7 @@ collections:
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Mission, name: mission, widget: text }
+          - { label: Mission heading, name: missionHeading, widget: string }
           - { label: Paragraphs, name: paragraphs, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
           - { label: What we offer heading, name: offerHeading, widget: string }
           - label: What we offer cards
@@ -249,8 +250,8 @@ collections:
           - { label: Nonprofit line, name: nonprofit, widget: string }
           - { label: Registration, name: registration, widget: text }
           - { label: Button, name: button, widget: string }
-          - { label: Sponsors heading, name: sponsorsHeading, widget: string }
-          - label: Sponsors
+          - { label: Sponsors heading (Get Involved page), name: sponsorsHeading, widget: string }
+          - label: Sponsors (Get Involved page)
             name: sponsors
             widget: list
             fields:

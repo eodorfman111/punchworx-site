@@ -1,12 +1,12 @@
 {
   "intro": "$67/MONTH PUNCHWORX ROCK STEADY BOXING FEE / UP TO 3 CLASSES PER WEEK",
-  "facility": "Facility Fee required",
+  "facility": "Facility Fee Required",
   "plans": [
     {
       "name": "Assessment",
       "price": "$75",
       "period": "one-time",
-      "summary": "$75 ONE-TIME ROCK STEADY BOXING ASSESSMENT CHARGE - Includes boxing gloves.",
+      "summary": "$75 ONE-TIME PUNCHWORX ROCK STEADY BOXING ASSESSMENT CHARGE",
       "badge": "",
       "extra": "",
       "bullets": [
@@ -17,7 +17,7 @@
       "featured": false
     },
     {
-      "name": "Rock Steady Boxing Membership",
+      "name": "PunchWorX Rock Steady Boxing Membership",
       "price": "$67",
       "period": "/month",
       "summary": "",
@@ -60,7 +60,7 @@
       "kicker": "Assessment",
       "lead": "$75",
       "unit": "one time",
-      "text": "$75 ONE-TIME ROCK STEADY BOXING ASSESSMENT CHARGE - Includes boxing gloves.",
+      "text": "$75 ONE-TIME PUNCHWORX ROCK STEADY BOXING ASSESSMENT CHARGE",
       "featured": false
     },
     {
@@ -74,7 +74,7 @@
       "kicker": "Facility",
       "lead": "Fee",
       "unit": "",
-      "text": "Facility Fee required",
+      "text": "Facility Fee Required",
       "featured": false
     }
   ]
