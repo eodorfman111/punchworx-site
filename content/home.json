@@ -1,0 +1,60 @@
+{
+  "heroEyebrow": "Rock Steady Boxing",
+  "heroLine1": "Stay Strong",
+  "heroLine2": "& Fight Back",
+  "offering": "Offering a way to STAY STRONG & FIGHT BACK for individuals diagnosed with Parkinson’s Disease.",
+  "intro": "Utilizing a non-contact boxing exercise regimen tailored specifically for individuals living with Parkinson’s disease. Emerging research has shown that exercise, particularly rigorous activities that challenge both the body and mind, can play a crucial role in managing symptoms and improving overall quality of life. This evidenced-based exercise method is proven to be beneficial for people in all stages of Parkinson’s, including those who are newly diagnosed and those who have lived with Parkinson’s Disease for decades.",
+  "heroPrimary": "Membership",
+  "heroSecondary": "Call to observe a class",
+  "offerEyebrow": "What we offer",
+  "offerHeading": "Stay Strong & Fight Back",
+  "offerCards": [
+    {
+      "title": "Specialized Classes",
+      "body": "Classes to accommodate varying degrees of Parkinson’s fitness levels."
+    },
+    {
+      "title": "Community",
+      "body": "A supportive community for fighters and caregivers."
+    },
+    {
+      "title": "Coaches",
+      "body": "Certified coaches with experience in Parkinson’s-specific exercise protocol."
+    }
+  ],
+  "membershipEyebrow": "Membership",
+  "membershipHeading": "Membership",
+  "stepsEyebrow": "Get started",
+  "stepsHeading": "How to get started",
+  "steps": [
+    {
+      "title": "Call",
+      "body": "To join or observe a class, call 865-219-7660."
+    },
+    {
+      "title": "Assessment",
+      "body": "$75 ONE-TIME ROCK STEADY BOXING ASSESSMENT CHARGE - Includes boxing gloves."
+    },
+    {
+      "title": "Train up to 3 times a week",
+      "body": "Mon. Wed. Fri. 8am, 9am, 10am, 11am, and Noon. Each class is 1 hour."
+    }
+  ],
+  "insideEyebrow": "In the ring",
+  "insideHeading": "A look inside class",
+  "pillars": [
+    "Pull Your Weight",
+    "Stay Strong",
+    "Get Moving",
+    "Fight Back"
+  ],
+  "supportersEyebrow": "Thank you",
+  "supportersHeading": "Supporters and sponsors",
+  "contactEyebrow": "Contact",
+  "contactHeading": "Call or email",
+  "callCardTitle": "Call",
+  "emailCardTitle": "Email",
+  "mapLinkLabel": "Open in Google Maps",
+  "heroImage": "/images/group-boxing.jpg",
+  "heroAlt": "A group of people participating in a boxing workout in a gym, with one person practicing kicks on a punching bag, and others observing or preparing to exercise. The gym is equipped with exercise balls, boxing gloves, and punching bags."
+}

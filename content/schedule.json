@@ -1,0 +1,29 @@
+{
+  "boxingTitle": "PunchWorx Boxing",
+  "days": [
+    "Mon.",
+    "Wed.",
+    "Fri."
+  ],
+  "times": [
+    "8am",
+    "9am",
+    "10am",
+    "11am",
+    "Noon"
+  ],
+  "length": "1hr class",
+  "caption": "Mon. Wed. Fri. hourly classes. Each class is 1hr.",
+  "dayHeading": "Day",
+  "timesHeading": "Class times",
+  "lengthHeading": "Length",
+  "aquaTitle": "Aqua-Box Fitness",
+  "aquaDays": [
+    "Tues",
+    "Thurs"
+  ],
+  "aquaTime": "Seasonal times",
+  "aquaNote": "Aqua Box Water Fitness",
+  "aquaCaption": "Tues, Thurs / Seasonal times (Aqua Box Water Fitness)",
+  "aquaTimeHeading": "Time"
+}

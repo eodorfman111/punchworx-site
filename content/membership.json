@@ -1,0 +1,81 @@
+{
+  "intro": "$67/MONTH PUNCHWORX ROCK STEADY BOXING FEE / UP TO 3 CLASSES PER WEEK",
+  "facility": "Facility Fee required",
+  "plans": [
+    {
+      "name": "Assessment",
+      "price": "$75",
+      "period": "one-time",
+      "summary": "$75 ONE-TIME ROCK STEADY BOXING ASSESSMENT CHARGE - Includes boxing gloves.",
+      "badge": "",
+      "extra": "",
+      "bullets": [
+        "One-time Rock Steady Boxing assessment charge",
+        "Includes boxing gloves"
+      ],
+      "button": "Call to Book",
+      "featured": false
+    },
+    {
+      "name": "Rock Steady Boxing Membership",
+      "price": "$67",
+      "period": "/month",
+      "summary": "",
+      "badge": "Up to 3 classes per week",
+      "extra": "",
+      "bullets": [
+        "Up to 3 classes per week",
+        "Mon, Wed, Fri, 8am, 9am, 10am, 11am, and Noon",
+        "Each class is 1 hour",
+        "Non-contact boxing-inspired fitness classes that dramatically improve balance, strength, aerobic activity, mobility, and overall function."
+      ],
+      "button": "Call to Join",
+      "featured": true
+    },
+    {
+      "name": "Aqua-Box Fitness",
+      "price": "",
+      "period": "",
+      "summary": "Aquatics classes provided seasonally (10 weeks in spring / fall months).",
+      "badge": "AQUA BOX FITNESS will resume class in the fall 2026",
+      "extra": "10-week sessions",
+      "bullets": [
+        "AQUA BOX FITNESS will resume class in the fall 2026",
+        "Low-impact water fitness for mobility and balance",
+        "Seasonal, 10 weeks in spring / fall months"
+      ],
+      "button": "Call for Details",
+      "featured": false
+    }
+  ],
+  "cards": [
+    {
+      "kicker": "Membership",
+      "lead": "$67",
+      "unit": "/ month",
+      "text": "$67/MONTH PUNCHWORX ROCK STEADY BOXING FEE / UP TO 3 CLASSES PER WEEK",
+      "featured": true
+    },
+    {
+      "kicker": "Assessment",
+      "lead": "$75",
+      "unit": "one time",
+      "text": "$75 ONE-TIME ROCK STEADY BOXING ASSESSMENT CHARGE - Includes boxing gloves.",
+      "featured": false
+    },
+    {
+      "kicker": "Aqua Box Fitness",
+      "lead": "Fall 2026",
+      "unit": "",
+      "text": "AQUA BOX FITNESS will resume class in the fall 2026",
+      "featured": false
+    },
+    {
+      "kicker": "Facility",
+      "lead": "Fee",
+      "unit": "",
+      "text": "Facility Fee required",
+      "featured": false
+    }
+  ]
+}

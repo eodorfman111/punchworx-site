@@ -1,0 +1,109 @@
+{
+  "heading": "Meet the Coaches",
+  "marquee": "FIGHT BACK • INSPIRE HOPE • IMPROVE LIVES",
+  "boardHeading": "Meet the Board of Directors",
+  "coaches": [
+    {
+      "name": "Marty Hubbard, OTR/L",
+      "title": "Executive Director, Rock Steady Boxing Certified Coach, and Occupational Therapist",
+      "bio": "",
+      "image": "/images/marty.jpg",
+      "alt": "Marty Hubbard, OTR/L Executive Director, Rock Steady Boxing Certified Coach, and Occupational Therapist"
+    },
+    {
+      "name": "Jill Spangler, PTA",
+      "title": "FOUNDER. Rock Steady Boxing Certified Coach, and Physical Therapy Assistant",
+      "bio": "",
+      "image": "/images/jill.jpg",
+      "alt": "Jill Spangler, PTA Founder, Rock Steady Boxing, Certified Coach and Physical Therapy Assistant"
+    },
+    {
+      "name": "Leo Goodrum",
+      "title": "Rock Steady Boxing Certified Assistant Coach",
+      "bio": "",
+      "image": "/images/leo.jpg",
+      "alt": "Leo Goodrum, Rock Steady Boxing Certified Assistant Coach"
+    },
+    {
+      "name": "Sandy Carpenter, CPT",
+      "title": "Rock Steady Boxing Certified Coach and National Academy of Sports Medicine (NASM) Certified Personal Trainer",
+      "bio": "",
+      "image": "/images/sandy.jpg",
+      "alt": "Sandy Carpenter, CPT, Rock Steady Boxing Certified Coach and National Academy of Sports Medicine (NASM) Certified Personal Trainer"
+    },
+    {
+      "name": "Kelley Souther, CPT",
+      "title": "Program Assistant, Rock Steady Boxing Certified Coach, American Council on Exercise (ACE) Certified Personal Trainer",
+      "bio": "",
+      "image": "/images/kelley.jpg",
+      "alt": "Kelley Souther, CPT, Program Assistant, Rock Steady Boxing Certified Coach, American Council on Exercise (ACE) Certified Personal Trainer"
+    },
+    {
+      "name": "Amanda Conti, CPT",
+      "title": "Rock Steady Boxing Certified Assistant Coach and National Academy of Sports Medicine (NASM) Certified Personal Trainer",
+      "bio": "",
+      "image": "/images/amanda.jpg",
+      "alt": "Amanda Conti, CPT, Rock Steady Boxing Certified Assistant Coach and National Academy of Sports Medicine (NASM) Certified Personal Trainer"
+    },
+    {
+      "name": "Erin Kennedy, OTR/L",
+      "title": "Rock Steady Boxing Certified Coach",
+      "bio": "",
+      "image": "/images/erin.jpg",
+      "alt": "Erin Kennedy, OTR/L, Rock Steady Boxing Certified Coach"
+    },
+    {
+      "name": "Lori Phillips",
+      "title": "Rock Steady Boxing Certified Assistant Coach and Volunteer",
+      "bio": "",
+      "image": "/images/lori.jpg",
+      "alt": "Lori Phillips, Rock Steady Boxing Certified Assistant Coach and Volunteer"
+    },
+    {
+      "name": "Nancy Nuzzo, PT, Ph.D.",
+      "title": "Rock Steady Boxing Certified Coach and Volunteer",
+      "bio": "",
+      "image": "/images/nancy.jpg",
+      "alt": "Nancy Nuzzo, PT, Ph.D., Rock Steady Boxing Certified Coach and Volunteer"
+    }
+  ],
+  "board": [
+    {
+      "name": "Jill Spangler",
+      "title": "PRESIDENT & FOUNDER",
+      "bio": "",
+      "image": "/images/jill-board.jpg",
+      "alt": "Jill Spangler, PRESIDENT & FOUNDER"
+    },
+    {
+      "name": "Toni Martorana",
+      "title": "TREASURER",
+      "bio": "",
+      "image": "/images/toni.jpg",
+      "alt": "Toni Martorana, TREASURER"
+    },
+    {
+      "name": "Ginny Wolfe",
+      "title": "SECRETARY",
+      "bio": "",
+      "image": "/images/ginny.jpg",
+      "alt": "Ginny Wolfe, SECRETARY"
+    },
+    {
+      "name": "Tee Boykins",
+      "title": "ADVISOR",
+      "bio": "",
+      "image": "/images/tee.jpg",
+      "alt": "Tee Boykins, ADVISOR"
+    },
+    {
+      "name": "Carina Mosley",
+      "title": "ADVISOR",
+      "bio": "",
+      "image": "/images/carina.jpg",
+      "alt": "Carina Mosley, ADVISOR"
+    }
+  ],
+  "quote": "THE INSTRUCTORS ARE VERY KNOWLEDGEABLE AND TAKE A PERSONAL INTEREST FOR EACH INDIVIDUAL ATTENDING CLASS.",
+  "quoteBy": "Jerry L. -Class participant"
+}

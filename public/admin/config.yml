@@ -1,0 +1,302 @@
+backend:
+  name: github
+  repo: eodorfman111/punchworx-site
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+publish_mode: simple
+media_folder: public/images/uploads
+public_folder: /images/uploads
+site_url: https://www.punchworx.org
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: settings
+        label: Settings
+        file: content/settings.json
+        fields:
+          - { label: Phone, name: phone, widget: string }
+          - { label: Phone display, name: phoneDisplay, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Instagram, name: instagram, widget: string }
+          - { label: Facebook, name: facebook, widget: string }
+          - { label: Facebook reel, name: reel, widget: string }
+          - { label: Toll-free number, name: tollFree, widget: string }
+          - { label: Hours line, name: hoursLine, widget: text }
+          - { label: Physical address, name: physicalAddress, widget: text }
+          - { label: Visit street, name: visitStreet, widget: string }
+          - { label: Visit city, name: visitCity, widget: string }
+          - { label: Mailing address, name: mailingAddress, widget: string }
+          - { label: Venue, name: venue, widget: string }
+          - { label: Footer street, name: footerStreet, widget: string }
+          - { label: Footer city, name: footerCity, widget: string }
+          - { label: PO box, name: poBox, widget: string }
+          - { label: PO box city, name: poCity, widget: string }
+          - { label: Map search, name: mapQuery, widget: string }
+          - { label: Announcement, name: announcement, widget: string }
+          - { label: Mission, name: mission, widget: text }
+          - { label: Copyright, name: copyright, widget: string }
+          - { label: Footer boxing title, name: footerBoxingTitle, widget: string }
+          - { label: Footer boxing days, name: footerBoxingDays, widget: string }
+          - { label: Footer boxing time, name: footerBoxingTime, widget: string }
+          - { label: Footer aqua title, name: footerAquaTitle, widget: string }
+          - { label: Footer aqua when, name: footerAquaWhen, widget: string }
+  - name: home
+    label: Home page
+    files:
+      - name: home
+        label: Home
+        file: content/home.json
+        fields:
+          - { label: Hero eyebrow, name: heroEyebrow, widget: string }
+          - { label: Hero line 1, name: heroLine1, widget: string }
+          - { label: Hero line 2, name: heroLine2, widget: string }
+          - { label: Offering, name: offering, widget: text }
+          - { label: Intro, name: intro, widget: text }
+          - { label: Hero primary button, name: heroPrimary, widget: string }
+          - { label: Hero secondary button, name: heroSecondary, widget: string }
+          - { label: Offer eyebrow, name: offerEyebrow, widget: string }
+          - { label: Offer heading, name: offerHeading, widget: string }
+          - label: Offer cards
+            name: offerCards
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Body, name: body, widget: text }
+          - { label: Membership eyebrow, name: membershipEyebrow, widget: string }
+          - { label: Membership heading, name: membershipHeading, widget: string }
+          - { label: Steps eyebrow, name: stepsEyebrow, widget: string }
+          - { label: Steps heading, name: stepsHeading, widget: string }
+          - label: Steps
+            name: steps
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Body, name: body, widget: text }
+          - { label: Inside eyebrow, name: insideEyebrow, widget: string }
+          - { label: Inside heading, name: insideHeading, widget: string }
+          - { label: Pillars, name: pillars, widget: list, field: { label: Pillar, name: pillar, widget: string } }
+          - { label: Supporters eyebrow, name: supportersEyebrow, widget: string }
+          - { label: Supporters heading, name: supportersHeading, widget: string }
+          - { label: Contact eyebrow, name: contactEyebrow, widget: string }
+          - { label: Contact heading, name: contactHeading, widget: string }
+          - { label: Call card title, name: callCardTitle, widget: string }
+          - { label: Email card title, name: emailCardTitle, widget: string }
+          - { label: Map link label, name: mapLinkLabel, widget: string }
+          - { label: Hero image, name: heroImage, widget: image }
+          - { label: Hero image description, name: heroAlt, widget: string }
+  - name: membership
+    label: Membership
+    files:
+      - name: membership
+        label: Membership
+        file: content/membership.json
+        fields:
+          - { label: Intro, name: intro, widget: text }
+          - { label: Facility note, name: facility, widget: string }
+          - label: Plans
+            name: plans
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: string, required: false }
+              - { label: Period, name: period, widget: string, required: false }
+              - { label: Summary, name: summary, widget: text, required: false }
+              - { label: Badge, name: badge, widget: string, required: false }
+              - { label: Extra line, name: extra, widget: string, required: false }
+              - { label: Bullets, name: bullets, widget: list, field: { label: Bullet, name: bullet, widget: string } }
+              - { label: Button, name: button, widget: string }
+              - { label: Featured, name: featured, widget: boolean, required: false }
+          - label: Pricing cards
+            name: cards
+            widget: list
+            fields:
+              - { label: Name, name: kicker, widget: string }
+              - { label: Price, name: lead, widget: string }
+              - { label: Period, name: unit, widget: string, required: false }
+              - { label: Text, name: text, widget: text }
+              - { label: Featured, name: featured, widget: boolean, required: false }
+  - name: schedule
+    label: Class schedule
+    files:
+      - name: schedule
+        label: Schedule
+        file: content/schedule.json
+        fields:
+          - { label: Boxing title, name: boxingTitle, widget: string }
+          - { label: Days, name: days, widget: list, field: { label: Day, name: day, widget: string } }
+          - { label: Times, name: times, widget: list, field: { label: Time, name: time, widget: string } }
+          - { label: Length, name: length, widget: string }
+          - { label: Caption, name: caption, widget: string }
+          - { label: Day heading, name: dayHeading, widget: string }
+          - { label: Times heading, name: timesHeading, widget: string }
+          - { label: Length heading, name: lengthHeading, widget: string }
+          - { label: Aqua title, name: aquaTitle, widget: string }
+          - { label: Aqua days, name: aquaDays, widget: list, field: { label: Day, name: day, widget: string } }
+          - { label: Aqua time, name: aquaTime, widget: string }
+          - { label: Aqua note, name: aquaNote, widget: string }
+          - { label: Aqua caption, name: aquaCaption, widget: string }
+          - { label: Aqua time heading, name: aquaTimeHeading, widget: string }
+  - name: services
+    label: Services page
+    files:
+      - name: services
+        label: Services
+        file: content/services.json
+        fields:
+          - { label: Hero title, name: heroTitle, widget: string }
+          - { label: Hero line, name: heroLine, widget: string }
+          - { label: Call label, name: heroCallLabel, widget: string }
+          - { label: Hero button, name: heroButton, widget: string }
+          - { label: Membership heading, name: membershipHeading, widget: string }
+          - { label: Schedule heading, name: scheduleHeading, widget: string }
+          - { label: Schedule intro, name: scheduleIntro, widget: text }
+          - { label: Boxing title, name: boxingTitle, widget: string }
+          - { label: Boxing description, name: boxingBody, widget: text }
+          - { label: Aqua title, name: aquaTitle, widget: string }
+          - { label: Aqua description, name: aquaBody, widget: text }
+          - { label: Aqua season, name: aquaSeason, widget: text }
+          - { label: Aqua resume, name: aquaResume, widget: string }
+          - { label: Anniversary, name: anniversary, widget: string }
+          - { label: Hero image, name: heroImage, widget: image }
+          - { label: Boxing image, name: boxingImage, widget: image }
+          - { label: Boxing image description, name: boxingImageAlt, widget: string }
+          - { label: Aqua image, name: aquaImage, widget: image }
+          - { label: Aqua image description, name: aquaImageAlt, widget: string }
+  - name: about
+    label: About page
+    files:
+      - name: about
+        label: About
+        file: content/about.json
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Mission, name: mission, widget: text }
+          - { label: Paragraphs, name: paragraphs, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+          - { label: What we offer heading, name: offerHeading, widget: string }
+          - label: What we offer cards
+            name: offers
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Body, name: body, widget: text }
+          - { label: Testimonials heading, name: testimonialsHeading, widget: string }
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - { label: Quote, name: quote, widget: text }
+              - { label: Name, name: by, widget: string }
+          - { label: Members photo, name: membersImage, widget: image }
+          - { label: Members photo description, name: membersAlt, widget: string }
+          - { label: High five photo, name: highFiveImage, widget: image }
+          - { label: High five description, name: highFiveAlt, widget: string }
+          - { label: Suspension photo, name: suspensionImage, widget: image }
+          - { label: Suspension description, name: suspensionAlt, widget: string }
+          - { label: Pushups photo, name: pushupsImage, widget: image }
+          - { label: Pushups description, name: pushupsAlt, widget: string }
+          - { label: Boxing photo, name: rockSteadyImage, widget: image }
+          - { label: Boxing description, name: rockSteadyAlt, widget: string }
+          - { label: Gloves photo, name: glovesCircleImage, widget: image }
+          - { label: Gloves description, name: glovesCircleAlt, widget: string }
+  - name: team
+    label: Team
+    files:
+      - name: team
+        label: Team
+        file: content/team.json
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Marquee, name: marquee, widget: string }
+          - { label: Board heading, name: boardHeading, widget: string }
+          - { label: Quote, name: quote, widget: text }
+          - { label: Quote by, name: quoteBy, widget: string }
+          - label: Coaches
+            name: coaches
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Bio, name: bio, widget: text, required: false }
+              - { label: Photo, name: image, widget: image }
+              - { label: Photo description, name: alt, widget: string }
+          - label: Board
+            name: board
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Bio, name: bio, widget: text, required: false }
+              - { label: Photo, name: image, widget: image }
+              - { label: Photo description, name: alt, widget: string }
+  - name: donate
+    label: Donate page
+    files:
+      - name: donate
+        label: Donate
+        file: content/donate.json
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Help line, name: help, widget: string }
+          - { label: Today line, name: today, widget: string }
+          - { label: Lead, name: lead, widget: text }
+          - { label: Gift, name: gift, widget: text }
+          - { label: Mail label, name: mailLabel, widget: string }
+          - { label: Organization, name: org, widget: string }
+          - { label: PO box, name: box, widget: string }
+          - { label: City, name: city, widget: string }
+          - { label: Nonprofit line, name: nonprofit, widget: string }
+          - { label: Registration, name: registration, widget: text }
+          - { label: Button, name: button, widget: string }
+          - { label: Sponsors heading, name: sponsorsHeading, widget: string }
+          - label: Sponsors
+            name: sponsors
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Logo, name: image, widget: image }
+              - { label: Logo description, name: alt, widget: string }
+  - name: faq
+    label: Questions
+    files:
+      - name: faq
+        label: Questions
+        file: content/faq.json
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: Questions
+            name: items
+            widget: list
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
+  - name: cta
+    label: Call to action
+    files:
+      - name: cta
+        label: Call to action
+        file: content/cta.json
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Headline, name: headline, widget: string }
+          - { label: Primary button, name: primaryLabel, widget: string }
+          - { label: Primary link, name: primaryHref, widget: string }
+          - { label: Call button, name: secondaryLabel, widget: string }
+  - name: contact
+    label: Contact page
+    files:
+      - name: contact
+        label: Contact
+        file: content/contact.json
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Phone heading, name: phoneHeading, widget: string }
+          - { label: Email heading, name: emailHeading, widget: string }
+          - { label: Visit heading, name: visitHeading, widget: string }
+          - { label: Button, name: button, widget: string }
+          - { label: Form heading, name: formHeading, widget: string }
+          - { label: Map link label, name: mapLinkLabel, widget: string }
+          - { label: Hero image, name: heroImage, widget: image }
+          - { label: Hero image description, name: heroAlt, widget: string }

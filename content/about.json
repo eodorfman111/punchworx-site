@@ -1,0 +1,54 @@
+{
+  "heading": "Stay Strong & Fight Back",
+  "mission": "Our mission is to fight back, inspire hope, and improve lives.",
+  "paragraphs": [
+    "With over 90,000 individuals diagnosed annually in the U.S. with Parkinson’s Disease, PunchWorX an affiliate of Rock Steady Boxing, provides a way to “Stay Strong & Fight Back” through an in-person, non-contact boxing program, designed to improve each participant’s quality of life.",
+    "Offering fifteen Rock Steady Boxing classes per week and one seasonal Aqua-box Aquatic Fitness classes per week, our specialized exercise programs combine elements of traditional boxing training with targeted exercises designed to address the unique motor challenges associated with the disease. Our workout classes are meticulously designed to enhance mobility, balance, stiffness, coordination, and function, impacting the overall quality of life for those living with Parkinson’s Disease. Beyond physical exercise, PunchWorX fosters a supportive community where individuals can share experiences, triumphs, and challenges, knowing they are not alone in their fight."
+  ],
+  "offerHeading": "What We Offer",
+  "offers": [
+    {
+      "title": "Specialized Classes",
+      "body": "Classes to accommodate varying degrees of Parkinson’s fitness levels"
+    },
+    {
+      "title": "Community",
+      "body": "Supportive wecommunity for fighters and caregivers."
+    },
+    {
+      "title": "Coaches",
+      "body": "Certified coaches with experience in Parkinson’s- specific exercise protocol."
+    }
+  ],
+  "testimonialsHeading": "Testimonials",
+  "testimonials": [
+    {
+      "quote": "THIS PROGRAM KEEPS US MOTIVATED, IMPROVES QUALITY OF LIFE, AND GIVES US HOPE",
+      "by": "Lori Maureen"
+    },
+    {
+      "quote": " EXERCISE IS MEDICINE",
+      "by": "Coach Marty"
+    },
+    {
+      "quote": "THE THING I ENJOY MOST IS THE INCREDIBLE COMMUNITY YOU ARE BUILDING. WE ALL HAVE PARKINSON’S AND ARE AT DIFFERENT STAGES IN OUR JOURNEY….WE LEARN FROM ONE ANOTHER, AS WELL AS INSPIRE EACH OTHER",
+      "by": "Anna Marie"
+    },
+    {
+      "quote": "PUNCHWORX HAS HELPED ME STICK WITH THE PROGRAM BECAUSE IT WORKS",
+      "by": "Gary K."
+    }
+  ],
+  "membersImage": "/images/members.jpg",
+  "membersAlt": "SOME PUNCHWORX MEMBERS",
+  "highFiveImage": "/images/high-five.jpg",
+  "highFiveAlt": "PUNCHWORX BOXERS HIGH FIVING EACH OTHER",
+  "suspensionImage": "/images/suspension.jpg",
+  "suspensionAlt": "Five older women using suspension trainers in a fitness class, standing in a line and leaning forward while holding onto handles attached to the ceiling",
+  "pushupsImage": "/images/pushups.jpg",
+  "pushupsAlt": "An elderly man wearing workout gloves and athletic clothing doing push-ups on a STEP RACK exercise step platform in a gym or fitness center.",
+  "rockSteadyImage": "/images/rock-steady.png",
+  "rockSteadyAlt": "A PunchWorx participant in a white shirt and boxing gloves works a bag during class.",
+  "glovesCircleImage": "/images/img-5908.jpg",
+  "glovesCircleAlt": "PunchWorx members bring their gloved hands together in a circle."
+}
