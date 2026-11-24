@@ -23,14 +23,37 @@ const barlow = Barlow_Semi_Condensed({
   variable: "--font-barlow",
 });
 
+const siteTitle = "PUNCHWORX - FIGHTING AGAINST PARKINSON’S";
+const description =
+  "PUNCHWORX offers specialized exercise programs, including non-contact boxing and aqua-boxing to help individuals with Parkinson's manage symptoms and improve quality of life in Lakeland, FL.";
+const ogImage = {
+  url: "https://punchworx.org/og-image.png",
+  width: 1200,
+  height: 630,
+  alt: "PunchWorX. Fighting Against Parkinson's.",
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.punchworx.org"),
+  metadataBase: new URL("https://punchworx.org"),
   title: {
-    default: "PUNCHWORX - FIGHTING AGAINST PARKINSON’S",
+    default: siteTitle,
     template: "%s | PUNCHWORX",
   },
-  description:
-    "PUNCHWORX offers specialized exercise programs, including non-contact boxing and aqua-boxing to help individuals with Parkinson's manage symptoms and improve quality of life in Lakeland, FL.",
+  description,
+  openGraph: {
+    title: siteTitle,
+    description,
+    url: "https://punchworx.org",
+    siteName: "PunchWorX",
+    type: "website",
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description,
+    images: [ogImage.url],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
