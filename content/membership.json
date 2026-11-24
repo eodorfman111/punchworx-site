@@ -1,3 +1,4 @@
+
 {
   "intro": "$67/MONTH PUNCHWORX ROCK STEADY BOXING FEE / UP TO 3 CLASSES PER WEEK",
   "facility": "Facility Fee Required",
@@ -36,13 +37,13 @@
       "name": "Aqua-Box Fitness",
       "price": "",
       "period": "",
-      "summary": "Aquatics classes provided seasonally (10 weeks in spring / fall months).",
-      "badge": "AQUA BOX FITNESS will resume class in the fall 2026",
-      "extra": "10-week sessions",
+      "summary": "Aquatics classes provided seasonally (8 weeks).",
+      "badge": "AQUA BOX FITNESS will resume class in the spring 2027",
+      "extra": "8-week sessions",
       "bullets": [
-        "AQUA BOX FITNESS will resume class in the fall 2026",
+        "AQUA BOX FITNESS will resume class in the spring 2027",
         "Low-impact water fitness for mobility and balance",
-        "Seasonal, 10 weeks in spring / fall months"
+        "Seasonal, 8 weeks"
       ],
       "button": "Call for Details",
       "featured": false
@@ -65,9 +66,9 @@
     },
     {
       "kicker": "Aqua Box Fitness",
-      "lead": "Fall 2026",
+      "lead": "Spring 2027",
       "unit": "",
-      "text": "AQUA BOX FITNESS will resume class in the fall 2026",
+      "text": "AQUA BOX FITNESS will resume class in the spring 2027",
       "featured": false
     },
     {
