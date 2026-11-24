@@ -1,3 +1,4 @@
+
 # PunchWorx
 
 A rebuilt website for [PunchWorx](https://www.punchworx.org), a Parkinson’s fitness nonprofit in Lakeland, Florida. Classes are Rock Steady Boxing and seasonal Aqua-Box Fitness at Kelly Recreation Complex.
@@ -27,7 +28,7 @@ Netlify is set up in `netlify.toml`: the build command is `npm run build` and th
 | --- | --- | --- |
 | `/` and `/home/` | `/` and `/home` | Name, “Where Exercise is Medicine,” the stay strong and fight back line, four focus words, the boxing program paragraph, Alexander the Great quote, class preview, 20 years announcement, testimonials, hours, address, map |
 | `/about/` | `/about` | Affiliate description, mission, what we offer (including the original wording), member photos, testimonials |
-| `/classes/` and the Services link | `/classes` | Membership prices, assessment fee, facility fee note, Aqua Box fall 2026 notice, Rock Steady and Aqua-Box descriptions, weekly tables, anniversary reel |
+| `/classes/` and the Services link | `/classes` | Membership prices, assessment fee, facility fee note, Aqua Box spring 2027 notice, Rock Steady and Aqua-Box descriptions, weekly tables, anniversary reel |
 | `/team/` and `/team-2/` | `/team-2` | Coaches, board, Jerry L. quote, logo card, fight back / inspire hope / improve lives line |
 | `/get-involved/` | `/get-involved` | Donation copy, mailing address for checks, 501(c)(3) registration, supporters and the 2026 sponsor list |
 | `/contact/` and `/contact-1/` | `/contact-1` | Phone, email, visit address, hours, Name / Email / Message form, map |
@@ -56,14 +57,14 @@ The Aqua-Box photo is the pool image the original classes page used (an Unsplash
 These URLs were in the sitemap or returned a page, and they are not in the original navigation.
 
 - `/contact` is an unpublished template page. Visible body text is “Please feel free to contact us with any questions.”, Phone `(555) 555-5555`, and E-mail `email@example.com`, with a stock photo. The real contact page is `/contact-1`.
-- `/classes1` is an unpublished template page with generic class names (Pull Your Weight I and II, Obstacle Course I and II, Cardio Circuit, Strength Training) and stock photos of people. Those are not PunchWorx classes.
+- `/classes1` is an unpublished template page with generic class names (Pull Your Weight I and II, Obstacle Course I and II, Cardio Circuit, Strength Training) and stock photos of people. Those are not PunchWorX classes.
 - `/cart` is the empty Squarespace cart.
 - `/search` is the Squarespace search page.
 
 ## Original facts worth knowing while editing
 
 - Rock Steady Boxing: Monday, Wednesday, and Friday at 8am, 9am, 10am, 11am, and Noon. Each class is 1 hour. The building line says Mon, Wed, Fri / 8am-1pm.
-- Aqua-Box: Tuesday and Thursday, seasonal times, 10 weeks in spring and fall. “AQUA BOX FITNESS will resume class in the fall 2026.” The about page also says one seasonal Aqua-box class per week. Both lines are on the site.
+- Aqua-Box: Tuesday and Thursday, seasonal times, 8 weeks. “AQUA BOX FITNESS will resume class in the spring 2027.” The about page also says one seasonal Aqua-box class per week. Both lines are on the site.
 - Membership: `$67/MONTH` for up to 3 classes per week. `$75` one-time assessment, includes boxing gloves. “Facility Fee required” has no dollar amount on the original site, so none is shown.
 - Place: Kelly Recreation Complex, 404 Imperial Blvd., Lakeland, FL 33803.
 - Mail: P.O. Box #5572, Lakeland, FL 33807. Check donations use “Lakeland, Florida 33807.”
