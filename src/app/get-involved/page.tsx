@@ -22,25 +22,15 @@ export default function GetInvolvedPage() {
 
   return (
     <>
-      {/* Get Involved Heading */}
-      <section className="bg-navy px-4 py-8 text-white md:py-12">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-lg font-bold text-sky">Welcome</p>
-          <h1 className="font-display mt-2 text-4xl leading-tight md:text-6xl">
-            Get Involved
-          </h1>
-        </div>
-      </section>
-
       {/* Donate Now */}
       <section className="bg-navy px-4 py-8 text-white md:py-12">
         <div className="mx-auto max-w-4xl">
           <p className="text-lg font-bold text-sky">
             {donation.eyebrow}
           </p>
-          <h2 className="font-display mt-2 text-3xl leading-tight md:text-6xl">
+          <h1 className="font-display mt-2 text-3xl leading-tight md:text-6xl">
             {donation.help}
-          </h2>
+          </h1>
           <p className="mt-2 text-2xl font-bold text-sky">
             {donation.today}
           </p>
