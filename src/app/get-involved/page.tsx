@@ -1,11 +1,12 @@
 
 import type { Metadata } from "next";
-import { donation, sponsors } from "@/lib/content";
+import { DonationForm } from "@/components/donation-form";
+import { donation, phones, sponsors } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Get Involved",
   description:
-    "Thank you to the sponsors and community partners supporting PunchWorX in Lakeland.",
+    "Support PunchWorX by donating and recognizing the sponsors and community partners supporting our mission in Lakeland.",
 };
 
 export default function GetInvolvedPage() {
@@ -21,13 +22,69 @@ export default function GetInvolvedPage() {
 
   return (
     <>
+      {/* Get Involved Heading */}
       <section className="bg-navy px-4 py-8 text-white md:py-12">
         <div className="mx-auto max-w-4xl">
-          <p className="text-lg font-bold text-sky">Thank you</p>
+          <p className="text-lg font-bold text-sky">Welcome</p>
           <h1 className="font-display mt-2 text-4xl leading-tight md:text-6xl">
             Get Involved
           </h1>
         </div>
+      </section>
+
+      {/* Donate Now */}
+      <section className="bg-navy px-4 py-8 text-white md:py-12">
+        <div className="mx-auto max-w-4xl">
+          <p className="text-lg font-bold text-sky">
+            {donation.eyebrow}
+          </p>
+          <h2 className="font-display mt-2 text-3xl leading-tight md:text-6xl">
+            {donation.help}
+          </h2>
+          <p className="mt-2 text-2xl font-bold text-sky">
+            {donation.today}
+          </p>
+        </div>
+      </section>
+
+      {/* Live Donation Form */}
+      <section className="bg-[#071422] px-4 py-8 md:py-12">
+        <div className="mx-auto max-w-[42rem] rounded-2xl bg-white p-3 text-[#122033] shadow-xl md:p-5">
+          <DonationForm />
+        </div>
+      </section>
+
+      {/* Donation Information */}
+      <section className="mx-auto grid max-w-6xl gap-6 px-4 py-8 md:px-6 lg:grid-cols-5 lg:py-14">
+        <div className="space-y-6 text-xl leading-relaxed lg:col-span-3">
+          <p>{donation.lead}</p>
+          <p>{donation.gift}</p>
+        </div>
+
+        <aside className="border border-sky/40 bg-panel p-4 lg:col-span-2 md:p-6">
+          <p className="text-lg font-bold">{donation.mailLabel}</p>
+
+          <p className="font-display mt-4 text-3xl leading-tight text-navy">
+            {donation.org}
+            <br />
+            {donation.box}
+            <br />
+            {donation.city}
+          </p>
+
+          <p className="mt-4 text-lg">{donation.nonprofit}</p>
+
+          <p className="mt-3 text-lg leading-relaxed">
+            {donation.registration}
+          </p>
+
+          <a
+            href={phones.callTel}
+            className="gym-btn gym-btn-sky mt-5 w-full"
+          >
+            {donation.button}
+          </a>
+        </aside>
       </section>
 
       {/* Sponsors */}
