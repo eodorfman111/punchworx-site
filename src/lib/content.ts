@@ -110,6 +110,23 @@ export const board = team.board.map((person) => ({
 
 export const teamContent = team;
 
+export const donation = {
+  lead: getInvolved.lead,
+  gift: getInvolved.gift,
+  mailLabel: getInvolved.mailLabel,
+  org: getInvolved.org,
+  box: getInvolved.box,
+  city: getInvolved.city,
+  nonprofit: getInvolved.nonprofit,
+  registration: getInvolved.registration,
+  help: getInvolved.help,
+  today: getInvolved.today,
+  eyebrow: getInvolved.eyebrow,
+  button: getInvolved.button,
+};
+
+export const sponsorsHeading = getInvolved.sponsorsHeading;
+export const sponsors = getInvolved.sponsors;
 export const partnersHeading = getInvolved.partnersHeading;
 export const partners = getInvolved.partners;
 

@@ -1,25 +1,44 @@
 {
+  "eyebrow": "Support • Community • Thank you",
+  "help": "Your donation helps us help others.",
+  "today": "Get involved today!",
+  "lead": "Your donation supports us in our mission to help fight back, inspire hope, and improve the lives of those living with Parkinson’s Disease. PunchWorX is determined to make life better for people with Parkinson’s TODAY.",
+  "gift": "Your gift provides vital resources for our exercise class programming and instruction, to effectively support individuals at any stage of their Parkinson’s Disease. We are continually working to improve quality of life through exercise & education.",
+  "mailLabel": "Check donations can be mailed to:",
+  "org": "PunchWorX, Inc",
+  "box": "P.O. Box #5572",
+  "city": "Lakeland, Florida 33807",
+  "nonprofit": "PunchWorX, Inc. is a non-profit 501 (c) (3) organization.",
+  "registration": "Registration # CH78056. A copy of the official registration and financial information may be obtained from the division of consumer services by calling toll-free (800-435-7352) within the state. Registration does not imply endorsement, approval, or recommendation by the state.",
+  "button": "Call to join or observe a class",
+  "sponsorsHeading": "Thank you sponsors",
+  "sponsors": [
+    {
+      "name": "K.L. Smith Roofing Experts",
+      "text": "BRONZE SPONSOR",
+      "image": "/images/kl-smith.jpg",
+      "alt": "Logo for K.L. Smith Roofing Experts with a red and white background."
+    },
+    {
+      "name": "Solid Start, Inc",
+      "text": "PLATINUM SPONSOR",
+      "image": "/images/solid-start.png",
+      "alt": "Solid Start, Inc logo"
+    }
+  ],
   "partnersHeading": "Community Partners",
   "partners": [
     {
       "name": "Parkinson's Foundation",
+      "text": "This program is supported by a Community Grant from the Parkinson's Foundation, made possible thanks to the generosity of the estate of Stanley and Gloria Brams.",
       "image": "/images/parkinsons-foundation.png",
-      "alt": "Parkinson's Foundation"
+      "alt": "Light blue logo with a stylized 'P' and the words 'Parkinson's Foundation' beside it."
     },
     {
       "name": "GiveWell Community Foundation",
+      "text": "PunchWorX, exercise for Parkinson's Disease program, has been funded in part through a grant from GiveWell Community Foundation in honor of Mabel Schaefer's Legacy.",
       "image": "/images/givewell.jpg",
-      "alt": "GiveWell Community Foundation"
-    },
-    {
-      "name": "Solid Start, Inc",
-      "image": "/images/solid-start.png",
-      "alt": "Solid Start, Inc"
-    },
-    {
-      "name": "K.L. Smith Roofing Experts",
-      "image": "/images/kl-smith.jpg",
-      "alt": "K.L. Smith Roofing Experts"
+      "alt": "Logo for Give Well Community Foundation with the words \"give help, give hope\" and a yellow hand symbol."
     },
     {
       "name": "City of Lakeland",
