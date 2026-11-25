@@ -234,29 +234,8 @@ collections:
     files:
       - name: get-involved
         label: Get Involved
-        file: content/donate.json
+        file: content/get-involved.json
         fields:
-          - { label: Eyebrow, name: eyebrow, widget: string }
-          - { label: Help line, name: help, widget: string }
-          - { label: Today line, name: today, widget: string }
-          - { label: Lead, name: lead, widget: text }
-          - { label: Gift, name: gift, widget: text }
-          - { label: Mail label, name: mailLabel, widget: string }
-          - { label: Organization, name: org, widget: string }
-          - { label: PO box, name: box, widget: string }
-          - { label: City, name: city, widget: string }
-          - { label: Nonprofit line, name: nonprofit, widget: string }
-          - { label: Registration, name: registration, widget: text }
-          - { label: Button, name: button, widget: string }
-          - { label: Sponsors heading, name: sponsorsHeading, widget: string }
-          - label: Sponsors
-            name: sponsors
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Text, name: text, widget: text }
-              - { label: Logo, name: image, widget: image }
-              - { label: Logo description, name: alt, widget: string }
           - { label: Partners heading, name: partnersHeading, widget: string }
           - label: Community partners
             name: partners

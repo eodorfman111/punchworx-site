@@ -1,7 +1,7 @@
 import about from "../../content/about.json";
 import contact from "../../content/contact.json";
 import cta from "../../content/cta.json";
-import donate from "../../content/donate.json";
+import getInvolved from "../../content/get-involved.json";
 import faq from "../../content/faq.json";
 import home from "../../content/home.json";
 import membership from "../../content/membership.json";
@@ -44,7 +44,6 @@ export const nav = [
   { href: "/team/", label: "Meet the Team" },
   { href: "/questions/", label: "Questions" },
   { href: "/get-involved/", label: "Get Involved" },
-  { href: donateUrl, label: "Donate Now" },
   { href: "/contact/", label: "Contact" },
 ] as const;
 
@@ -111,25 +110,8 @@ export const board = team.board.map((person) => ({
 
 export const teamContent = team;
 
-export const donation = {
-  lead: donate.lead,
-  gift: donate.gift,
-  mailLabel: donate.mailLabel,
-  org: donate.org,
-  box: donate.box,
-  city: donate.city,
-  nonprofit: donate.nonprofit,
-  registration: donate.registration,
-  help: donate.help,
-  today: donate.today,
-  eyebrow: donate.eyebrow,
-  button: donate.button,
-  sponsorsHeading: donate.sponsorsHeading,
-};
-
-export const sponsors = donate.sponsors;
-export const partnersHeading = donate.partnersHeading;
-export const partners = donate.partners;
+export const partnersHeading = getInvolved.partnersHeading;
+export const partners = getInvolved.partners;
 
 export const aboutContent = about;
 export const aboutParagraphs = about.paragraphs;

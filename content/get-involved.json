@@ -1,0 +1,40 @@
+{
+  "partnersHeading": "Community Partners",
+  "partners": [
+    {
+      "name": "Parkinson's Foundation",
+      "image": "/images/parkinsons-foundation.png",
+      "alt": "Parkinson's Foundation"
+    },
+    {
+      "name": "GiveWell Community Foundation",
+      "image": "/images/givewell.jpg",
+      "alt": "GiveWell Community Foundation"
+    },
+    {
+      "name": "Solid Start, Inc",
+      "image": "/images/solid-start.png",
+      "alt": "Solid Start, Inc"
+    },
+    {
+      "name": "K.L. Smith Roofing Experts",
+      "image": "/images/kl-smith.jpg",
+      "alt": "K.L. Smith Roofing Experts"
+    },
+    {
+      "name": "City of Lakeland",
+      "image": "/images/partners/city-of-lakeland.png",
+      "alt": "City of Lakeland"
+    },
+    {
+      "name": "Florida Southern Physical Therapy",
+      "image": "/images/partners/fsc-physical-therapy.png",
+      "alt": "Florida Southern Physical Therapy"
+    },
+    {
+      "name": "Florida Southern Nursing and Health Sciences",
+      "image": "/images/partners/fsc-nursing-health-sciences.png",
+      "alt": "Florida Southern Nursing and Health Sciences"
+    }
+  ]
+}
