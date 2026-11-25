@@ -35,6 +35,8 @@ export const mapQuery = settings.mapQuery;
 export const mapEmbed = `https://maps.google.com/maps?q=${encodeURIComponent(mapQuery)}&z=16&output=embed`;
 export const mapLink = `https://maps.google.com/?q=${encodeURIComponent(mapQuery)}`;
 
+export const donateUrl = "https://secure.qgiv.com/for/punchworx/";
+
 export const nav = [
   { href: "/", label: "Home" },
   { href: "/about/", label: "About" },
@@ -42,7 +44,7 @@ export const nav = [
   { href: "/team/", label: "Meet the Team" },
   { href: "/questions/", label: "Questions" },
   { href: "/get-involved/", label: "Get Involved" },
-  { href: "/donate/", label: "Donate Now" },
+  { href: donateUrl, label: "Donate Now" },
   { href: "/contact/", label: "Contact" },
 ] as const;
 
@@ -126,6 +128,8 @@ export const donation = {
 };
 
 export const sponsors = donate.sponsors;
+export const partnersHeading = donate.partnersHeading;
+export const partners = donate.partners;
 
 export const aboutContent = about;
 export const aboutParagraphs = about.paragraphs;

@@ -4,3 +4,15 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/donate"
+  to = "https://secure.qgiv.com/for/punchworx/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/donate/"
+  to = "https://secure.qgiv.com/for/punchworx/"
+  status = 301
+  force = true

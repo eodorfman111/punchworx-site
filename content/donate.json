@@ -12,6 +12,24 @@
   "registration": "Registration # CH78056. A copy of the official registration and financial information may be obtained from the division of consumer services by calling toll-free (800-435-7352) within the state. Registration does not imply endorsement, approval, or recommendation by the state.",
   "button": "Call to join or observe a class",
   "sponsorsHeading": "Thank you supporters and sponsors",
+  "partnersHeading": "Community Partners",
+  "partners": [
+    {
+      "name": "City of Lakeland",
+      "image": "/images/partners/city-of-lakeland.png",
+      "alt": "City of Lakeland"
+    },
+    {
+      "name": "Florida Southern Physical Therapy",
+      "image": "/images/partners/fsc-physical-therapy.png",
+      "alt": "Florida Southern Physical Therapy"
+    },
+    {
+      "name": "Florida Southern Nursing and Health Sciences",
+      "image": "/images/partners/fsc-nursing-health-sciences.png",
+      "alt": "Florida Southern Nursing and Health Sciences"
+    }
+  ],
   "sponsors": [
     {
       "name": "Parkinson's Foundation",

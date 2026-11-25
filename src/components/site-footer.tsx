@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/logo";
-import { copyright, email, footerHours, mission, phones, social } from "@/lib/content";
+import { copyright, donateUrl, email, footerHours, mission, phones, social } from "@/lib/content";
 
 const explore = [
   { href: "/", label: "Home" },
@@ -12,7 +12,7 @@ const explore = [
   { href: "/about/", label: "About" },
   { href: "/questions/", label: "Questions" },
   { href: "/get-involved/", label: "Get Involved" },
-  { href: "/donate/", label: "Donate" },
+  { href: donateUrl, label: "Donate" },
   { href: "/contact/", label: "Contact" },
 ] as const;
 
@@ -111,18 +111,30 @@ export function SiteFooter() {
         <div>
           <p className="font-display text-lg tracking-wide">Explore</p>
           <nav className="mt-4 flex flex-col gap-2" aria-label="Explore">
-            {explore.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={isCurrent(pathname, item.href) ? "page" : undefined}
-                className={`text-base font-bold hover:text-sky ${
-                  isCurrent(pathname, item.href) ? "underline decoration-sky decoration-4 underline-offset-8" : ""
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {explore.map((item) =>
+              item.href.startsWith("http") ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-bold hover:text-sky"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={isCurrent(pathname, item.href) ? "page" : undefined}
+                  className={`text-base font-bold hover:text-sky ${
+                    isCurrent(pathname, item.href) ? "underline decoration-sky decoration-4 underline-offset-8" : ""
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ),
+            )}
           </nav>
         </div>
       </div>

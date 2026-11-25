@@ -229,11 +229,11 @@ collections:
               - { label: Bio, name: bio, widget: text, required: false }
               - { label: Photo, name: image, widget: image }
               - { label: Photo description, name: alt, widget: string }
-  - name: donate
-    label: Donate page
+  - name: get-involved
+    label: Get Involved
     files:
-      - name: donate
-        label: Donate
+      - name: get-involved
+        label: Get Involved
         file: content/donate.json
         fields:
           - { label: Eyebrow, name: eyebrow, widget: string }
@@ -248,13 +248,21 @@ collections:
           - { label: Nonprofit line, name: nonprofit, widget: string }
           - { label: Registration, name: registration, widget: text }
           - { label: Button, name: button, widget: string }
-          - { label: Sponsors heading (Get Involved page), name: sponsorsHeading, widget: string }
-          - label: Sponsors (Get Involved page)
+          - { label: Sponsors heading, name: sponsorsHeading, widget: string }
+          - label: Sponsors
             name: sponsors
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Text, name: text, widget: text }
+              - { label: Logo, name: image, widget: image }
+              - { label: Logo description, name: alt, widget: string }
+          - { label: Partners heading, name: partnersHeading, widget: string }
+          - label: Community partners
+            name: partners
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
               - { label: Logo, name: image, widget: image }
               - { label: Logo description, name: alt, widget: string }
   - name: faq

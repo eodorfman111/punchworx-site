@@ -13,7 +13,12 @@ import {
 } from "@/components/ui/sheet";
 import { cn } from "cn";
 
+function isExternal(href: string) {
+  return href.startsWith("http");
+}
+
 function isCurrent(pathname: string, href: string) {
+  if (isExternal(href)) return false;
   const path = pathname.endsWith("/") ? pathname : `${pathname}/`;
   if (href === "/") return path === "/" || path === "/home/";
   if (href === "/team/") return path.startsWith("/team");
@@ -48,19 +53,31 @@ export function SiteHeader() {
           <span className="font-display text-xl tracking-wide md:text-2xl">PUNCHWORX</span>
         </Link>
         <nav className="ml-auto hidden items-center lg:flex" aria-label="Primary">
-          {nav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              aria-current={isCurrent(pathname, item.href) ? "page" : undefined}
-              className={cn(
-                "px-1.5 py-2 text-[13px] font-bold whitespace-nowrap text-white xl:px-2 xl:text-sm",
-                isCurrent(pathname, item.href) && "underline decoration-sky decoration-4 underline-offset-8",
-              )}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {nav.map((item) =>
+            isExternal(item.href) ? (
+              <a
+                key={item.href}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-1.5 py-2 text-[13px] font-bold whitespace-nowrap text-white xl:px-2 xl:text-sm"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={isCurrent(pathname, item.href) ? "page" : undefined}
+                className={cn(
+                  "px-1.5 py-2 text-[13px] font-bold whitespace-nowrap text-white xl:px-2 xl:text-sm",
+                  isCurrent(pathname, item.href) && "underline decoration-sky decoration-4 underline-offset-8",
+                )}
+              >
+                {item.label}
+              </Link>
+            ),
+          )}
         </nav>
         <a href={phones.callTel} className="gym-btn gym-btn-sky ml-2 hidden xl:inline-flex">
           Call {phones.callUs}
@@ -91,7 +108,13 @@ export function SiteHeader() {
               {nav.map((item) => (
                 <SheetClose
                   key={item.href}
-                  render={<Link href={item.href} aria-current={isCurrent(pathname, item.href) ? "page" : undefined} />}
+                  render={
+                    isExternal(item.href) ? (
+                      <a href={item.href} target="_blank" rel="noopener noreferrer" />
+                    ) : (
+                      <Link href={item.href} aria-current={isCurrent(pathname, item.href) ? "page" : undefined} />
+                    )
+                  }
                   className={cn(
                     "border-t border-white/20 px-4 py-4 text-2xl font-bold text-white",
                     isCurrent(pathname, item.href) && "underline decoration-sky decoration-4 underline-offset-8",
